@@ -1,0 +1,44 @@
+{
+  "accounts": [
+    {
+      "name": "test",
+      "email": "tes@mit.edu",
+      "balance": 700,
+      "password": "8317",
+      "transactions": [
+        {
+          "Time": "2020-10-22T08:44:12.764Z",
+          "Action": "Deposit",
+          "Amount": "500",
+          "Description": "Deposited $500 into account tes@mit.edu"
+        },
+        {
+          "Time": "2020-10-22T21:08:16.098Z",
+          "Action": "Deposit",
+          "Amount": "200",
+          "Description": "Deposited $200 from account tes@mit.edu"
+        }
+      ]
+    },
+    {
+      "name": "test2",
+      "email": "test2@mit.edu",
+      "balance": 395,
+      "password": "8317",
+      "transactions": [
+        {
+          "Time": "2020-10-22T21:19:51.401Z",
+          "Action": "Deposit",
+          "Amount": "400",
+          "Description": "Deposited $400 from account test2@mit.edu"
+        },
+        {
+          "Time": "2020-10-22T21:20:30.464Z",
+          "Action": "Withdraw",
+          "Amount": "5",
+          "Description": "Withdrew $5 from account test2@mit.edu"
+        }
+      ]
+    }
+  ]
+}
