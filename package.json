@@ -1,0 +1,14 @@
+{
+  "name": "c0727bb9c966708f",
+  "main": "c0727bb9c966708f@3214.js",
+  "version": "3214.0.0",
+  "homepage": "https://observablehq.com/d/c0727bb9c966708f",
+  "author": {
+    "name": "Brandon TH Chen",
+    "url": "https://observablehq.com/@zxarda01"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}
