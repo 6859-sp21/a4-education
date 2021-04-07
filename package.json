@@ -1,0 +1,14 @@
+{
+  "name": "522fe7ad4b4c7cec",
+  "main": "522fe7ad4b4c7cec@3120.js",
+  "version": "3120.0.0",
+  "homepage": "https://observablehq.com/d/522fe7ad4b4c7cec",
+  "author": {
+    "name": "ByeongJo Kong",
+    "url": "https://observablehq.com/@imbottlebird"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}
