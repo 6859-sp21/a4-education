@@ -1,133 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Education</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="styles/reset.min.css" />
-    <link rel="stylesheet" href="styles/style.css" />
-    <link rel="stylesheet" href="styles/header-1.css" />
-	  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-	  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-	  <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.deep_purple-pink.min.css">
-    <link rel="stylesheet" href="styles.css">
-    <style>
-    #view-source {
-      position: fixed;
-      display: block;
-      right: 0;
-      bottom: 0;
-      margin-right: 40px;
-      margin-bottom: 40px;
-      z-index: 900;
-    }
-    </style>
-  </head>
+<html>
+<title>6.498 Adult Education</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
 
-  <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
-    <!-- Header Start -->
-    <header class="site-header" class='fixed-top'>
-      <div class="wrapper site-header__wrapper">
-        <h3>
-        <a href="#" class="brand" style="color:black;">6.589 A4 - Adult Education Around the World</a>
-      </h3>
-      
-        <nav class="nav">
-          <button class="nav__toggle" aria-expanded="false" type="button">
-            menu
-          </button>
-          <ul class="nav__wrapper">
-            <li class="nav__item" ><a href="index.html" style="color:black; text-decoration: none; font-size: 100%;">Intro</a></li>
-            <li class="nav__item"><a href="obs_tert.html" style="color:black;">Adult Education</a></li>
-            <li class="nav__item"><a href="obs_animate.html" style="color:black;">Tertiary Education</a></li>
-            <li class="nav__item" ><a href="design.html" style="color:black;">Design Decisions & Qs</a></li>
-          </ul>
-        </nav>
-        
-      </div>
-      
-    </header>
-    <!-- Header End -->
-    <script src="js/header-1.js"></script>
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="img/education-help-desk.png" style="width:70%;" class="w3-round"><br><br>
+    <h4><b>ADULT EDUCATION</b></h4>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#adult" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>Overall Adult Education</a> 
+    <a href="#tert" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>Tertirary Education</a> 
+    <a href="#income" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>Education/Income</a>
+    <a href="#acknowledge" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>Acknowledgements</a>
+  </div>
+</nav>
 
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Adult Education -->
+  <header id="adult">
+    <a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <h1><b>6.589 - Adult Education Levels</b></h1>
+    <div class="w3-section w3-bottombar w3-padding-16">
+        <strong style="color: blue;">Globalization and technological advances</strong> continue to increase the demand for individuals with a broader knowledge and skills. Countries with <strong style="color: blue;">highly educated populations</strong> have an advantage in coping with the demand and winning the global competitions.
+            Through our visualization, audience can learn about the <strong style="color: blue;">education levels of various countries</strong>, and how <strong style="color: blue;">education and income levels</strong> in those countries have grown together over the last 20 years.<br>
     
-      <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-  
-        <main class="mdl-layout__content">
-          <div class="mdl-layout__tab-panel is-active" id="overview">
-            <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-              
-              <div class="mdl-card mdl-cell mdl-cell--12-col-desktop " style="color: black;">
-                <div class="mdl-card__supporting-text">
-                  <h4>Introdution</h4>
-                  
-                  <h5>Topic: Adult Education</h5>
-                  <b>Why do we care?</b><br><br>
-                  Globalization and technology continue to increase the demand for individuals with a broader knowledge and skills. Countries with more highly educated populations have advantage in coping with the demand and, potentially, winning the global competitions.<br>
-                  <br>We tried to provide insights to the audience on the adult education levels of countries around the world. There are two visualizations; an overview status of the bar chart race and a detail view for whoever interested in exploring the data. 
+        The source of data is <a href="https://data.oecd.org/eduatt/adult-education-level.htm#indicator-chart" target="_blank">OECD Data Library</a>. The data used here is limited to the OECD member states and its associate/partnering member states.
+    </div>
+    <p><h2>Overall Adult Education Levels</h2></p>
+    <iframe width="100%" height="684" frameborder="0"
+        src="https://observablehq.com/embed/315eb8fb2443a4de?cells=viewof+groupingAttribute%2Cviewof+order%2Cchart"></iframe>    
+    </div>
+  </header>
+  <p></p>
 
-
-  
-                  
-                </div>
-                
-              </div>
-            </section>
-  
-            <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-              <div class="mdl-card mdl-cell mdl-cell--12-col">
-                <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing" style="color: black;">
-                  <h4 class="mdl-cell mdl-cell--12-col">Data</h4>
-                  <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
-                  </div>
-                  <div class="section__text mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
-                    
-                    <h5>Source: </h5>
-                    We explored through different sets of data offered by various educational intitutions. We decided to use the data offered by <b>OECD Data Repository</b>
-                    as it had the most organized and clean data. Although we had some issues due to missing values of certain countries, which caused one of our chart
-                    to act oddly. For this assignment, we paticularly focused on the Adult education, withand Tertiary Education, but planning to expand the boundary for the final project if necessary.<br><br>
-                    <h5>Data format:</h5>The data was downloadable in CSV format, which enabled us to easily convert the fields format into amenable forms before feeding into the Oberserveable codes.
-                    For our assignment, we used two sets of data. (1) Adult Education, which has 1008 data entries consist of 11 fields. (2) Tertiary education, this is a subset of Adult Education data, which has 6,673 data entries consist of 
-                    8 fields.
-                    <p></p>
-                  </div>
-                  <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
-                  </div>
-                  <div class="section__text mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
-                    <br>
-                    <h5>1. Adult Education</h5>
-                    This data looks at adult education level as defined by the highest level of education completed 
-                    by the 25-64 year-old population. The data is measured as a percentage of same age population; for 
-                    tertiary and upper secondary, data are also broken down by gender.<p></p>
-                  </div>
-                  <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
-                  </div>
-                  <div class="section__text mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
-                    <br>
-                    <h5>2. Tertiary Education</h5>
-                    Population with tertiary education is defined as those having completed the highest level 
-                    of education, by age group. This includes both theoretical programmes leading to advanced 
-                    research or high skill professions such as medicine and more vocational programmes leading 
-                    to the labour market. The measure is percentage of same age population, also available by 
-                    gender.<p></p>
-                  </div>
-                </div>
-              
-              </div>
-              
-            </section>
-      
-        </main>
-      </div>
-      
-      
+<!-- Tertiary Education -->
+<div class="w3-row-padding w3-padding-16" id="tert">
+    <p><h2>Tertiary Education Levels</h2></p>
+    <iframe width="100%" height="630" frameborder="0"
+  src="https://observablehq.com/embed/88dc74ddeb3903db?cells=chart"></iframe>
     
+  </div>
+<p></p>
+
+    <!-- Edu/Income -->
+  <div class="w3-row-padding w3-padding-16" id="income">
+      <p><h2>Education levels & Per-capita Income</h2></p>
+      <p>This is a recreation of a Gapminder visualization made famous by Hans Rosling. It shows per-capita income (x), Education levels (y) and population (area) of 43 OECD member states over the last 20 years, colored by region.</p>
+    <iframe width="100%" height="744" frameborder="0"
+  src="https://observablehq.com/embed/f23a6c291a1e7039?cells=viewof+year%2Clegend%2Cchart"></iframe>
+
+  </div>
+
   
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-  </body>
+  <!-- Images of Me -->
+  <div class="w3-row-padding w3-padding-16" id="acknowledge">
+      <h3>Acknowledgements</h3>
+    <ul class="nav__wrapper">
+        <li class="nav__item" ><a href="https://www.w3schools.com/css/css_rwd_templates.asp" style="color:black;">W3.CSS Web Site Templates</a></li>
+        <li class="nav__item"><a href="https://data.oecd.org/eduatt/population-with-tertiary-education.htm#indicator-chart" style="color:black;">OECD Data Library</a></li>
+        <li class="nav__item"><a href="#" style="color:black;">dddd</a></li>
+        <li class="nav__item" ><a href="#" style="color:black;">dddd</a></li>
+      </ul>
+  </div>
+
+  
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
 </html>
