@@ -2,8 +2,8 @@
 <b>A4 Final Submission</b><br>
 Link: https://6859-sp21.github.io/a4-education-in-korea-and-united-states/
 #### **Team:**
-* Brandon Chen
-* ByeongJo Kong
+* Brandon Chen (brandonc@mit.edu)
+* ByeongJo Kong (kongb@mit.edu)
 <br>
 
 **Dataset:** OECD Data Library<br>
