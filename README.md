@@ -2,7 +2,7 @@
 <b>A4 Final Submission</b><br>
 Link: https://6859-sp21.github.io/a4-education-in-korea-and-united-states/
 
-Revised Project Title : Adult Education Levels in different Countries
+Updated Project Title : Adult Education Levels in different Countries
 #### **Team:**
 * Brandon Chen (brandonc@mit.edu)
 * ByeongJo Kong (kongb@mit.edu)
