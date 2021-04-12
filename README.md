@@ -34,17 +34,13 @@ We thought it would be interesting to see whether education levels and income le
 ***Overview*** <br>
 In the first meeting, we decided to use D3 as a prototyping tool and convert D3 to github website after we finish.  We also decided to adopt a multi-milestone stage for our A4 assignment. Details as below 
 * 1st Milestone<br>
-ByeongJo finished the research on how to embed D3 on the webpage, including build the website structure (5 hours)
-Brandon finished the bar chart ( 8 hours ) .
+ByeongJo finished the research on how to embed D3 on the webpage and built the bone-structure of the website (5 hours); Brandon finished the bar chart ( 8 hours ).
 * 2nd Milestone<br>
-ByeongJo finished the Gapminder (circle animation) chart animation (11 hours
-Brandon finish the bar chart race visualization ( 8 hours )
-Prepare for the MVP demo ( 2 hours * 2)
+ByeongJo finished the Gapminder (circle animation) chart animation (11 hours); Brandon finish the bar chart race visualization (8 hours); Prepare for the MVP demo ( 2 hours * 2)
 * 3rd Milestone<br>
-Both of us digest the feedback from peer critiques and enhance the charts ( 8 hours *  2)
-Prepare write up for the final submission( 4 hours * 2 ) 
+Both of us digest the feedback from peer critiques and enhance the charts ( 8 hours *  2); Prepare write up for the final submission( 4 hours * 2 ) 
 * Total  Effort<br>
-ByeongJo ( 30 hours )
+ByeongJo ( 30 hours )<br>
 Brandon ( 30 hours )<br><br>
 
 **Challenges**
