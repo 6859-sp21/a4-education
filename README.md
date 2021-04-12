@@ -24,7 +24,7 @@ From the research stage, we found that the bar chart race can quickly catch user
 <img src='img/bar_chart_race.png' width='80%'> 
 
 * Gapminder Chart<br>
-We thought it would be interesting to see whether education levels and income levels are correlated. For that, we decided to recreate a Gapminder visualization made famous by Hans Rosling. It illustrates the movement of circles, which represent each country, in a chart space of per-capita income (x), education levels (y) and population (area) of 43 OECD member states over the last 20 years, colored by region. We placed a Play/Pause button to give more control to the audience in sliding through particular years as they wish.
+We thought it would be interesting to see whether education levels and income levels are correlated. For that, we decided to recreate a Gapminder visualization made famous by Hans Rosling. It illustrates the movement of circles, which represent each country, in a chart space of per-capita income (x), education levels (y) and population (area) of 43 OECD member states over the last 30 years, colored by region. We placed a Play/Pause button to give more control to the audience in sliding through particular years as they wish.
 <br>
 <img src='img/gapminder_chart.png' width='80%'> 
 <br><br>
