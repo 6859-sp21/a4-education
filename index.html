@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<title>6.498 Adult Education</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="img/adult-education.jpeg" style="width:90%;" class="w3-round"><br><br>
+    <h4><b>ADULT EDUCATION</b></h4>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#adult" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-book fa-fw w3-margin-right"></i>Overall Adult Education</a> 
+    <a href="#tert" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>Tertirary Education</a> 
+    <a href="#income" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-money fa-fw w3-margin-right"></i>Education/Income</a>
+    <a href="#acknowledge" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-users fa-fw w3-margin-right"></i>Acknowledgements</a>
+  </div>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Adult Education -->
+  <header id="adult">
+    <a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <h1><b>6.589 - Adult Education Levels</b></h1>
+    <div class="w3-section w3-bottombar w3-padding-16">
+        <strong style="color: blue;">Globalization and technological advances</strong> continue to increase the needs for individuals with broader knowledge and skillsets. It is highly likely that countries with <strong style="color: blue;">highly educated populations</strong> have advantages in coping with the demand and improving the employment opportunities and income levels of their people.
+            Through our visualization, audience can learn about the <strong style="color: blue;">education levels of various countries</strong>, and how <strong style="color: blue;">education and income levels</strong> in those countries have grown together over the last 30 years.<br>
+    
+        The source of data is <a href="https://data.oecd.org/eduatt/adult-education-level.htm#indicator-chart" target="_blank">OECD Data Library</a>. The data used here are limited to the OECD member states and its associate/partnering member states.
+    </div>
+    <p><h2>Overall Adult Education Levels</h2></p>
+    <iframe width="100%" height="684" frameborder="0"
+        src="https://observablehq.com/embed/315eb8fb2443a4de?cells=viewof+groupingAttribute%2Cviewof+order%2Cchart"></iframe>    
+    </div>
+  </header>
+  <p></p>
+
+<!-- Tertiary Education -->
+<div class="w3-row-padding w3-padding-16" id="tert">
+    <p><h2>Tertiary Education Levels</h2></p>
+    A bart chart race showing who are the leading countries in the tertiary education over the last 20 years.
+    <iframe width="100%" height="766" frameborder="0"
+  src="https://observablehq.com/embed/19de6015da6813cb?cells=viewof+keyframe%2Cchart"></iframe>
+    
+  </div>
+<p></p>
+
+    <!-- Edu/Income -->
+  <div class="w3-row-padding w3-padding-16" id="income">
+      <p><h2>Education levels & Per-capita Income</h2></p>
+      <p>This is a recreation of a Gapminder visualization made famous by Hans Rosling. It shows per-capita income (x), Education levels (y) and population (area) of 43 OECD (associate) member states over the last 30 years, colored by region.</p>
+    <iframe width="100%" height="744" frameborder="0"
+  src="https://observablehq.com/embed/f23a6c291a1e7039?cells=viewof+year%2Clegend%2Cchart"></iframe>
+
+  </div>
+
+  
+  <!-- Images of Me -->
+  <div class="w3-row-padding w3-padding-16" id="acknowledge">
+      <h3>Acknowledgements</h3>
+    <ul class="nav__wrapper">
+        <li class="nav__item" ><a href="https://www.w3schools.com/css/css_rwd_templates.asp" style="color:black;">W3.CSS Web Site Templates</a></li>
+        <li class="nav__item"><a href="https://data.oecd.org/eduatt/population-with-tertiary-education.htm#indicator-chart" style="color:black;">OECD Data Library</a></li>
+        <li class="nav__item"><a href="https://observablehq.com/@d3/bar-chart-race-explained" style="color:black;">Bar Chart Race</a></li>
+        <li class="nav__item" ><a href="https://observablehq.com/@d3/bar-chart" style="color:black;">Bar Chart</a></li>
+        <li class="nav__item" ><a href="https://observablehq.com/@d3/sortable-bar-chart" style="color:black;">Bar Chart Sortable</a></li>
+        <li class="nav__item" ><a href="https://observablehq.com/@mbostock/the-wealth-health-of-nations" style="color:black;">Gapminder Chart</a></li>
+      </ul>
+  </div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
